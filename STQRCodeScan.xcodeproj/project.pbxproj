@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9A3E0D1B69ECBC00478785 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9A3E0C1B69ECBC00478785 /* libzbar.a */; };
 		8E9FFCD61A600C46006100E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FFCD51A600C46006100E9 /* main.m */; };
 		8E9FFCD91A600C46006100E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FFCD81A600C46006100E9 /* AppDelegate.m */; };
 		8E9FFCDC1A600C46006100E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FFCDB1A600C46006100E9 /* ViewController.m */; };
 		8E9FFCDF1A600C46006100E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FFCDD1A600C46006100E9 /* Main.storyboard */; };
 		8E9FFCE11A600C46006100E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FFCE01A600C46006100E9 /* Images.xcassets */; };
 		8E9FFCE41A600C46006100E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FFCE21A600C46006100E9 /* LaunchScreen.xib */; };
-		8E9FFCF01A600C46006100E9 /* STQRCodeScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FFCEF1A600C46006100E9 /* STQRCodeScanTests.m */; };
 		8E9FFD101A600E78006100E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD0F1A600E78006100E9 /* AVFoundation.framework */; };
 		8E9FFD121A600E81006100E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD111A600E81006100E9 /* CoreMedia.framework */; };
 		8E9FFD141A600E8C006100E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD131A600E8C006100E9 /* CoreVideo.framework */; };
 		8E9FFD161A600E95006100E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD151A600E95006100E9 /* QuartzCore.framework */; };
 		8E9FFD181A600ED0006100E9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD171A600ED0006100E9 /* libiconv.dylib */; };
-		8E9FFD1A1A60116E006100E9 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9FFD191A60116E006100E9 /* libzbar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E9A3E0C1B69ECBC00478785 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = ../../../../Desktop/Work/Backups/Third/ZBarSDK/libzbar.a; sourceTree = "<group>"; };
 		8E9FFCD01A600C46006100E9 /* STQRCodeScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STQRCodeScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9FFCD41A600C46006100E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9FFCD51A600C46006100E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,7 +71,6 @@
 		8E9FFD131A600E8C006100E9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		8E9FFD151A600E95006100E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8E9FFD171A600ED0006100E9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		8E9FFD191A60116E006100E9 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = "../../../Sample/Github/QRCode/ZBarSDK-master/libzbar.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9FFD1A1A60116E006100E9 /* libzbar.a in Frameworks */,
 				8E9FFD181A600ED0006100E9 /* libiconv.dylib in Frameworks */,
+				8E9A3E0D1B69ECBC00478785 /* libzbar.a in Frameworks */,
 				8E9FFD161A600E95006100E9 /* QuartzCore.framework in Frameworks */,
 				8E9FFD141A600E8C006100E9 /* CoreVideo.framework in Frameworks */,
 				8E9FFD121A600E81006100E9 /* CoreMedia.framework in Frameworks */,
@@ -101,7 +100,7 @@
 		8E9FFCC71A600C46006100E9 = {
 			isa = PBXGroup;
 			children = (
-				8E9FFD191A60116E006100E9 /* libzbar.a */,
+				8E9A3E0C1B69ECBC00478785 /* libzbar.a */,
 				8E9FFCD21A600C46006100E9 /* STQRCodeScan */,
 				8E9FFCEC1A600C46006100E9 /* STQRCodeScanTests */,
 				8E9FFCD11A600C46006100E9 /* Products */,
@@ -309,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9FFCF01A600C46006100E9 /* STQRCodeScanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +422,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STQRCodeScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/stone/Desktop/Stone/Personal/Code/iOS/Sample/Github/QRCode/ZBarSDK-master",
+					"$(PROJECT_DIR)/STQRCodeScan",
+					/Users/Stone/Desktop/Files,
+					/Users/Stone/Desktop/Work/Backups/Third/ZBarSDK,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -438,12 +442,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STQRCodeScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/stone/Desktop/Stone/Personal/Code/iOS/Sample/Github/QRCode/ZBarSDK-master",
+					"$(PROJECT_DIR)/STQRCodeScan",
+					/Users/Stone/Desktop/Files,
+					/Users/Stone/Desktop/Work/Backups/Third/ZBarSDK,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -500,6 +509,7 @@
 				8E9FFCF51A600C46006100E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E9FFCF61A600C46006100E9 /* Build configuration list for PBXNativeTarget "STQRCodeScanTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +518,7 @@
 				8E9FFCF81A600C46006100E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
